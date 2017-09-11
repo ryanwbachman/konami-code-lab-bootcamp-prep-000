@@ -12,7 +12,7 @@ function init() {
     const key = parseInt(e.detail || e.which);
 
     console.log(key);
-    
+
     if(key===code[index]){
       index++;
       console.log(index);
@@ -23,7 +23,7 @@ function init() {
     } else {
       index = 0;
     }
-    
+
   });
 
 }
