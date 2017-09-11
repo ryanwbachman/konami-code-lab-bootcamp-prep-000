@@ -8,9 +8,7 @@ function init() {
   document.body.addEventListener('click', function () {
       console.alert('hello world');
   });​
-  
-  //
-  // const alphabet = [65, 66, 67];
+    // const alphabet = [65, 66, 67];
   //
   // // Keep track of index outside of the event handler.
   // let index = 0;
