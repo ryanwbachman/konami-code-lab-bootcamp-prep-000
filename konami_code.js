@@ -6,7 +6,7 @@ function init() {
   console.log('initialize');
 
   index = 0;
-  
+
   document.body.addEventListener('keydown', function(e) {
     //alert('hello world');
     const key = parseInt(e.detail || e.which);
@@ -15,6 +15,7 @@ function init() {
       index++;
       if(index===code.length){
         alert("Hoorah!");
+        index = 0;
       }
     } else {
       index = 0;
