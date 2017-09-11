@@ -7,8 +7,8 @@ function init() {
 
   document.body.addEventListener('click', function () {
       console.alert('hello world');
-  });​​​​​​​
-
+  });​
+  
   //
   // const alphabet = [65, 66, 67];
   //
