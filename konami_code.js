@@ -15,6 +15,7 @@ function init() {
     
     if(key===code[index]){
       index++;
+      console.log(index);
       if(index===code.length){
         alert("Hoorah!");
         index = 0;
@@ -22,7 +23,7 @@ function init() {
     } else {
       index = 0;
     }
-
+    
   });
 
 }
