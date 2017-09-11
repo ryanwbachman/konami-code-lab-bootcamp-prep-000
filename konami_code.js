@@ -6,7 +6,7 @@ function init() {
   //console.log('initialize');
 
   document.body.addEventListener('click', function () {
-      alert('hello world');
+      console.alert('hello world');
   });​​​​​​​
 
   //
